@@ -7,6 +7,22 @@ Available CLI commands:
 * `sdb`
 * `ares-*`
 
+## Installing
+- clone repo
+- run (bewar `Dockerfile` has older tizen version
+```
+docker build -t "tu_tizen_docker:Dockerfile" .
+```
+```
+Successfully built 785ed4ba5706
+Successfully tagged tu_tizen_docker:Dockerfile
+```
+```
+docker run -it tu_tizen_docker:Dockerfile
+
+```
+
+
 ## Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
