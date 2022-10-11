@@ -21,7 +21,11 @@ Successfully tagged tu_tizen_docker:Dockerfile
 docker run -it tu_tizen_docker:Dockerfile
 
 ```
+- or like original README
 
+```
+docker run -it --rm -v tvdata:$HOME tu_tizen_docker:Dockerfile bash
+```
 
 ## Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
