@@ -9,7 +9,7 @@ Available CLI commands:
 
 ## Installing
 - clone repo
-- run (bewar `Dockerfile` has older tizen version
+- run (beware `Dockerfile` has older tizen version
 ```
 docker build -t "tu_tizen_docker:Dockerfile" .
 ```
